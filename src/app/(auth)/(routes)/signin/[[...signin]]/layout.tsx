@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import NextTopLoader from 'nextjs-toploader';
 
 export const metadata: Metadata = {
-    title: 'Sign in | ShortyURL',
-    description: 'InCoder Web',
+    title: 'Sign in | ShortURL',
+    description: 'Honey-web',
 }
 
 const SignInLayout = ({

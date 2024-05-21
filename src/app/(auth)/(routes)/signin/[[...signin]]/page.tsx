@@ -42,12 +42,12 @@ const Page = () => {
                         <p>
                             Share your information and begin your journey with us.
                         </p>
-                        <Link href={"/signup"}>
+                        <Link href={"/"}>
                             <Button className='border-zinc-500  text-zinc-100 hover:border-zinc-200 hover:text-zinc-300 transition-colors border border-r-4 border-s-4 rounded-full px-6'>Sign Up</Button>
                         </Link>
                     </div>
                     <div className="right">
-                        <h3 className='text-center text-2xl font-semibold'>Sign In Here</h3>
+                        <h3 className='text-center text-2xl font-semibold'>Already have an account?<br /> Sign In Now.</h3>
                         <div className="socialSignUpOptions">
                             <Button variant={"outline"} className='socialFormBtn'><FaGoogle className="h-5 w-5" /></Button>
                             <Button variant={"outline"} className='socialFormBtn'><FaFacebook className="h-5 w-5" /></Button>
@@ -88,6 +88,14 @@ const Page = () => {
                     </div>
                 </div>
             </div>
+
+
+            <Link href={"/"}>
+                <p className='lg:hidden text-primary text-center grid grid-col p-2 '>New here? Create an account.
+                    <Button className='block border-zinc-500 text-zinc-100 hover:border-zinc-200 hover:text-zinc-100 transition-colors border border-r-4 border-s-4 rounded-full  px-2 h-full w-full items-center font-bold '>Sign Up</Button>
+                </p>
+            </Link>
+
         </>
     )
 }
